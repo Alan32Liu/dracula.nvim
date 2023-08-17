@@ -1,1 +1,1 @@
-require("dracula").load('dracula-soft')
+require("dracula").load('dracula_soft')

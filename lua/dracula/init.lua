@@ -97,9 +97,9 @@ local user_configs = {}
 local function get_configs()
    local configs = DEFAULT_CONFIG
 
-   if g.colors_name == 'dracula-soft' then
-      configs.theme = 'dracula-soft'
-      configs.colors = require('dracula.palette-soft')
+   if g.colors_name == 'dracula_soft' then
+      configs.theme = 'dracula_soft'
+      configs.colors = require('dracula.palette_soft')
    elseif g.colors_name == 'dracula' then
       configs.theme = 'dracula'
       configs.colors = require('dracula.palette')
